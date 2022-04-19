@@ -2,10 +2,13 @@
 
 /**
  * print_numbers - print numbers
+ *
  * Return: 0
  */
+
 void print_numbers(void)
 {
+
 	int i;
 
 	i = 0;
