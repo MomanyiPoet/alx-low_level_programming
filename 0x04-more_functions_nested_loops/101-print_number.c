@@ -8,20 +8,18 @@
  */
 void print_number(int n)
 {
-	unsigned int m;
+	int i, j;
 
-	if (n < 0)
-	{
-		putchar('-');
-		m = -n;
-	}
+	if (n > 0)
+		for (i = n; i > 0; i--)
+		{
+			for (j = 1; j <= n; j++)
+				if (j >= i)
+					putchar('#');
+				else
+					putchar(' ');
+			putchar('\n');
+		}
 	else
-	{
-		m = n;
-	}
-	if (m / 10 != 0)
-	{
-		print_number(m / 10);
-		putchar((m % 10) + '0');
-	}
+		putchar('\n');
 }
