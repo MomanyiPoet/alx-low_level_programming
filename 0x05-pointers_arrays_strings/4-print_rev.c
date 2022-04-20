@@ -5,7 +5,7 @@
  * print_rev - prints string in reverse order
  * @s: pointer
  *
- * Return: 0
+ * Return: void
  */
 void print_rev(char *s)
 {
@@ -16,7 +16,7 @@ void print_rev(char *s)
 	{
 		i++;
 	}
-	for (i = i -1; i > 0; i--)
+	for (i = i -1; i >= 0; i--)
 	{
 		putchar (s[i]);
 	}
