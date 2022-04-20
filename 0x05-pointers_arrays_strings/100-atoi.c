@@ -3,7 +3,7 @@
 /**
  * is_numerical - check if it is a digit
  * @n: number
- * Return:
+ * Return: 1 if number, else 0
  */
 int is_numerical(unsigned int n)
 {
