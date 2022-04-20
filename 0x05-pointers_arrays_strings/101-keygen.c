@@ -4,7 +4,6 @@
 #include <stdlib.h>
 
 /**
- * my task
  */
 int main(void)
 {
