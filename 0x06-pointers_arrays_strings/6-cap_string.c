@@ -28,6 +28,7 @@ char *cap_string(char *s)
 				s[index - 1] == '}' ||
 				index == 0)
 			s[index] -= 32;
+
 		index++;
 	}
 	return (s);
