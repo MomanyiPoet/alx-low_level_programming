@@ -10,7 +10,7 @@
  * Return: If width <= 0, height <= 0, or the function fails - NULL. 
  * 	   Otherwise - pointer to the 2-dimensional array of integers.
  */
-int **alloc_grid(int width, int height)<F9>
+int **alloc_grid(int width, int height)
 {
 	int **twoD;
 	int hgt_index, wid_index;
