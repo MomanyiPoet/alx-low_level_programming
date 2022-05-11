@@ -25,7 +25,7 @@ int find_len(char *str)
 }
 
 /**
- * create_xarray - Creates an array of chars and initializes
+ * create_xarray - Creates an array of chars
  * @size: The size of the array to be initialized.
  * Description: Insufficient space function exists with 98
  * Return: A pointer to the array.
