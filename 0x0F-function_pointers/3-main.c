@@ -4,6 +4,7 @@
 #include <stdlib.h>
 /**
  * main - prints the result
+ *
  * @argc: count
  * @argv: arguments passed
  *
@@ -22,7 +23,6 @@ int main(int argc, char *argv[])
 		printf("Error\n"), exit(99);
 
 	ptr = get_op_func(argv[2]);
-
 	if (ptr != NULL)
 	{
 		number1 = atoi(argv[1]);
@@ -30,10 +30,7 @@ int main(int argc, char *argv[])
 		calculate = (*ptr)(number1, number2);
 		printf("%d\n", calculate);
 	}
-
 	else
-	{
 		printf("Error\n"), exit(99);
-		return (0);
-	}
+	return (0);
 }
