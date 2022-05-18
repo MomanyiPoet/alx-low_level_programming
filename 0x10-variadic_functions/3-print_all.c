@@ -56,7 +56,7 @@ void print_string(va_list arg)
 
 	if (string == NULL)
 	{
-		printf("(null)");
+		printf("(nil)");
 		return;
 	}
 	printf("%s", string);
