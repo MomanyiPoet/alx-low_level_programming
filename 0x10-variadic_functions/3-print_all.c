@@ -96,8 +96,11 @@ void print_all(const char * const format, ...)
 			funcs[y].print(count);
 			sep = ", ";
 		}
+
 		x++;
 	}
+
 	printf("\n");
+
 	va_end(count);
 }
