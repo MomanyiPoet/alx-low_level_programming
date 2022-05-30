@@ -21,8 +21,8 @@ listint_t *insert_nodeint_at_index(listint_t **head, unsigned int idx, int n)
 	if (idx == 0)
 	{
 		poet->next = copy;
-		*head = new;
-		return (new);
+		*head = poet;
+		return (poet);
 	}
 
 	for (node = 0; node < (idx - 1); node++)
@@ -34,6 +34,6 @@ listint_t *insert_nodeint_at_index(listint_t **head, unsigned int idx, int n)
 	}
 
 	poet->next = copy->next;
-	copy->next = new;
-	return (new);
+	copy->next = poet;
+	return (poet);
 }
