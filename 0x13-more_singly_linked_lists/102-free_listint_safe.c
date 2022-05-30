@@ -7,7 +7,7 @@
  */
 size_t looped_listint_count(listint_t *head)
 
-	const listint_t *local, *poet;
+	listint_t *local, *poet;
 	size_t nodes = 1;
 
 	if (head == NULL || head->next == NULL)
