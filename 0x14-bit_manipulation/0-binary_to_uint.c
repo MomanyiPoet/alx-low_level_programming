@@ -39,10 +39,10 @@ int _strlen(const char *s)
 
 	while (*s != '\0')
 	{
-		i++;
+		x++;
 		s++;
 	}
-	return (i);
+	return (x);
 }
 
 /**
